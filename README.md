@@ -14,7 +14,7 @@ Using:
 -Styling  : CSS
 =================================
 Try My Project :
-
+npx plugins add vercel/vercel-plugin
 =================================
 <img width="1280" height="693" alt="Screenshot 2026-05-24 at 3 01 06 PM" src="https://github.com/user-attachments/assets/c83e4602-bc53-484b-97e3-aa09dea2501a" />
 =================================
