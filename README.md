@@ -1,73 +1,25 @@
-# React + TypeScript + Vite
+This is my Qiz app 🧠
+Let's See How Smart You Are 👀
+================================
+A dynamic and interactive Quiz Application built to test user Knowledge with custom questions,
+real-time score tracking , and a clean user interface
+================================
+Features:
+- interactive UI
+- Real-Time Feedback
+- Score Tracking
+================================
+Using:
+-Frontend : react & TypeScript
+-Styling  : CSS
+=================================
+Try My Project :
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+=================================
+<img width="1280" height="693" alt="Screenshot 2026-05-24 at 3 01 06 PM" src="https://github.com/user-attachments/assets/c83e4602-bc53-484b-97e3-aa09dea2501a" />
+=================================
+<img width="1280" height="693" alt="Screenshot 2026-05-24 at 3 01 23 PM" src="https://github.com/user-attachments/assets/a14ea8ac-c40f-45f6-bc4f-7cf21d674c53" />
+================================
+<img width="1280" height="693" alt="Screenshot 2026-05-24 at 3 02 40 PM" src="https://github.com/user-attachments/assets/f478dd61-8fd5-44dd-832e-bf2a3e1f6f20" />
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
